@@ -6,7 +6,6 @@ export const search = async(req:Request,res:Response)=>{
         const {teams,year,skip,limit} = req.body
         const findAllYear = year.find((x:any)=> x=='allYears')
         const findAllTeam = teams.find((x:any)=> x=='allTeams')
-        console.log(findAllTeam)
         if(findAllTeam!=undefined){
             if(findAllYear!=undefined){
                 let data = await schemaall.aggregate([
@@ -20,7 +19,6 @@ export const search = async(req:Request,res:Response)=>{
                         $limit : limit
                     }
                 ])
-                console.log(data.length)
 
                 res.status(200).send({data})
                 return
@@ -36,7 +34,6 @@ export const search = async(req:Request,res:Response)=>{
                     $limit : limit
                 }
             ])
-            console.log(data.length)
 
             res.status(200).send({data})
             return
@@ -53,7 +50,6 @@ export const search = async(req:Request,res:Response)=>{
                     $limit : limit
                 }
             ])
-            console.log(data.length)
 
             res.status(200).send({data})
             return
@@ -69,7 +65,6 @@ export const search = async(req:Request,res:Response)=>{
                 $limit : limit
             }
         ])
-        console.log(data.length)
 
         res.status(200).send({data})
     } catch (error) {

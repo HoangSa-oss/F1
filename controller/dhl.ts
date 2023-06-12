@@ -16,7 +16,6 @@ export const search = async(req:Request,res:Response)=>{
                     $limit : limit
                 }
             ])
-            console.log(data.length)
 
             res.status(200).send({data})
             return
@@ -33,7 +32,6 @@ export const search = async(req:Request,res:Response)=>{
                 $limit : limit
             }
         ])
-        console.log(data.length)
 
         res.status(200).send({data})
     } catch (error) {
