@@ -1,73 +1,73 @@
 *Cài đặt
 
-    Sau khi git clone
+        Sau khi git clone
 
-    Vào Mongodb tạo database có tên là "f1" với các collection có tên giống các file trong folder dbs
+        Vào Mongodb tạo database có tên là "f1" với các collection có tên giống các file trong folder dbs
 
-    Import data vào từng collection
+        Import data vào từng collection
 
-    Vào Terminal chạy lệnh "npm i"
+        Vào Terminal chạy lệnh "npm i"
 
-    Sau đó chạy lệnh lệnh "npm start"
+        Sau đó chạy lệnh lệnh "npm start"
 
 *Sử dụng     
 
-**đường dẫn "http://localhost:3000/dhl/search" dùng để search các thông tin DHL FASTEST LAP AWARD
-.Cú pháp data : 
+    **đường dẫn "http://localhost:3000/dhl/search" dùng để search các thông tin DHL FASTEST LAP AWARD
+    .Cú pháp data : 
 
-{
-"year":[2000,2010,"allYears"],
-"skip":option,
-"limit":option
-}
-tìm kiếm thông tin theo năm từ 2023 đến 1998 nếu xuất hiện "allYears" sẽ tìm tất cả các năm
+            {
+            "year":[2000,2010,"allYears"],
+            "skip":option,
+            "limit":option
+            }
+    tìm kiếm thông tin theo năm từ 2023 đến 1998 nếu xuất hiện "allYears" sẽ tìm tất cả các năm
 
-**đường dẫn "http://localhost:3000/teams/search" dùng để search cái thông tin các team
+    **đường dẫn "http://localhost:3000/teams/search" dùng để search cái thông tin các team
 
-Cú pháp data : 
+    Cú pháp data : 
 
-{
-"teams":["Alfa Romeo Ferrari","Haas Ferrari","allTeams"],
-"year":[2010,2023, "allYears"],
-"skip":option,
-"limit":option
-}
+            {
+            "teams":["Alfa Romeo Ferrari","Haas Ferrari","allTeams"],
+            "year":[2010,2023, "allYears"],
+            "skip":option,
+            "limit":option
+            }
 
-tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các teams
-.Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
-.Nếu trong teams xuất hiện "allTeams" sẽ tìm kiếm thông tin tổng hợp theo năm 
+    tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các teams
+    .Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
+    .Nếu trong teams xuất hiện "allTeams" sẽ tìm kiếm thông tin tổng hợp theo năm 
 
-**đường dẫn "http://localhost:3000/races/search"
-.dùng để search cái thông tin các races
+    **đường dẫn "http://localhost:3000/races/search"
+    .dùng để search cái thông tin các races
 
-Cú pháp data : 
+    Cú pháp data : 
 
-{
-"country":["Bahrain","allRaces"],
-"year":[2010,2023,"allYears"],
-"skip":option,
-"limit":option
-}
+            {
+            "country":["Bahrain","allRaces"],
+            "year":[2010,2023,"allYears"],
+            "skip":option,
+            "limit":option
+            }
 
-tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các races 
-.Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
-.Nếu trong teams xuất hiện "allRaces" sẽ tìm kiếm thông tin tổng hợp theo năm 
+    tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các races 
+    .Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
+    .Nếu trong teams xuất hiện "allRaces" sẽ tìm kiếm thông tin tổng hợp theo năm 
 
-**đường dẫn "http://localhost:3000/drivers/search"
-.dùng để search cái thông tin các drivers
+    **đường dẫn "http://localhost:3000/drivers/search"
+    .dùng để search cái thông tin các drivers
 
-Cú pháp data : 
+    Cú pháp data : 
 
-{
-"teams":["Alfa Romeo Ferrari","Haas Ferrari","allDrivers"],
-"year":[2010,2023, "allYears"],
-"skip":option,
-"limit":option
-}
+            {
+            "teams":["Alfa Romeo Ferrari","Haas Ferrari","allDrivers"],
+            "year":[2010,2023, "allYears"],
+            "skip":option,
+            "limit":option
+            }
 
-tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các drivers
-.Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
-Nếu trong teams xuất hiện "allDrivers" sẽ tìm kiếm thông tin tổng hợp theo năm 
+    tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các drivers
+    .Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
+    Nếu trong teams xuất hiện "allDrivers" sẽ tìm kiếm thông tin tổng hợp theo năm 
 
 **các thông tin crawling được
 
