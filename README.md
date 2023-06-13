@@ -33,12 +33,12 @@
             "limit":option
             }
 
-    tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các teams
-    .Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
-    .Nếu trong teams xuất hiện "allTeams" sẽ tìm kiếm thông tin tổng hợp theo năm 
+    Tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các teams
+    Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
+    Nếu trong teams xuất hiện "allTeams" sẽ tìm kiếm thông tin tổng hợp theo năm 
 
     **đường dẫn "http://localhost:3000/races/search"
-    .dùng để search cái thông tin các races
+    Dùng để search cái thông tin các races
 
     Cú pháp data : 
 
@@ -49,9 +49,9 @@
             "limit":option
             }
 
-    tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các races 
-    .Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
-    .Nếu trong teams xuất hiện "allRaces" sẽ tìm kiếm thông tin tổng hợp theo năm 
+    Tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các races 
+    Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
+    Nếu trong teams xuất hiện "allRaces" sẽ tìm kiếm thông tin tổng hợp theo năm 
 
     **đường dẫn "http://localhost:3000/drivers/search"
     .dùng để search cái thông tin các drivers
@@ -65,8 +65,8 @@
             "limit":option
             }
 
-    tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các drivers
-    .Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
+    Tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các drivers
+    Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
     Nếu trong teams xuất hiện "allDrivers" sẽ tìm kiếm thông tin tổng hợp theo năm 
 
 **các thông tin crawling được
