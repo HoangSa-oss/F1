@@ -4,7 +4,9 @@
 .Import data vào từng collection
 .Vào Terminal chạy lệnh "npm i"
 .Sau đó chạy lệnh lệnh "npm start"
+
 *Sử dụng     
+
 **đường dẫn "http://localhost:3000/dhl/search" dùng để search các thông tin DHL FASTEST LAP AWARD
 .Cú pháp data : 
 
