@@ -1,10 +1,14 @@
 *Cài đặt
 
 Sau khi git clone
-.Vào Mongodb tạo database có tên là "f1" với các collection có tên giống các file trong folder dbs
-.Import data vào từng collection
-.Vào Terminal chạy lệnh "npm i"
-.Sau đó chạy lệnh lệnh "npm start"
+
+Vào Mongodb tạo database có tên là "f1" với các collection có tên giống các file trong folder dbs
+
+Import data vào từng collection
+
+Vào Terminal chạy lệnh "npm i"
+
+Sau đó chạy lệnh lệnh "npm start"
 
 *Sử dụng     
 
