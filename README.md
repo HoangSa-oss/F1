@@ -25,6 +25,7 @@ Cú pháp data :
 "skip":option,
 "limit":option
 }
+
 tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các teams
 .Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
 .Nếu trong teams xuất hiện "allTeams" sẽ tìm kiếm thông tin tổng hợp theo năm 
@@ -40,6 +41,7 @@ Cú pháp data :
 "skip":option,
 "limit":option
 }
+
 tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các races 
 .Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
 .Nếu trong teams xuất hiện "allRaces" sẽ tìm kiếm thông tin tổng hợp theo năm 
@@ -55,6 +57,7 @@ Cú pháp data :
 "skip":option,
 "limit":option
 }
+
 tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các drivers
 .Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
 Nếu trong teams xuất hiện "allDrivers" sẽ tìm kiếm thông tin tổng hợp theo năm 
