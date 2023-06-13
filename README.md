@@ -13,61 +13,63 @@
 *Sử dụng     
 
     **đường dẫn "http://localhost:3000/dhl/search" dùng để search các thông tin DHL FASTEST LAP AWARD
-    .Cú pháp data : 
+            .Cú pháp data : 
 
-            {
-            "year":[2000,2010,"allYears"],
-            "skip":option,
-            "limit":option
-            }
-    tìm kiếm thông tin theo năm từ 2023 đến 1998 nếu xuất hiện "allYears" sẽ tìm tất cả các năm
+                    {
+                    "year":[2000,2010,"allYears"],
+                    "skip":option,
+                    "limit":option
+                    }
+            tìm kiếm thông tin theo năm từ 2023 đến 1998 nếu xuất hiện "allYears" sẽ tìm tất cả các năm
 
     **đường dẫn "http://localhost:3000/teams/search" dùng để search cái thông tin các team
 
-    Cú pháp data : 
+            Cú pháp data : 
 
-            {
-            "teams":["Alfa Romeo Ferrari","Haas Ferrari","allTeams"],
-            "year":[2010,2023, "allYears"],
-            "skip":option,
-            "limit":option
-            }
+                    {
+                    "teams":["Alfa Romeo Ferrari","Haas Ferrari","allTeams"],
+                    "year":[2010,2023, "allYears"],
+                    "skip":option,
+                    "limit":option
+                    }
 
-    Tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các teams
-    Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
-    Nếu trong teams xuất hiện "allTeams" sẽ tìm kiếm thông tin tổng hợp theo năm 
+            Tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các teams
+            Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
+            Nếu trong teams xuất hiện "allTeams" sẽ tìm kiếm thông tin tổng hợp theo năm 
 
     **đường dẫn "http://localhost:3000/races/search"
-    Dùng để search cái thông tin các races
+    
+            Dùng để search cái thông tin các races
 
-    Cú pháp data : 
+            Cú pháp data : 
 
-            {
-            "country":["Bahrain","allRaces"],
-            "year":[2010,2023,"allYears"],
-            "skip":option,
-            "limit":option
-            }
+                    {
+                    "country":["Bahrain","allRaces"],
+                    "year":[2010,2023,"allYears"],
+                    "skip":option,
+                    "limit":option
+                    }
 
-    Tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các races 
-    Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
-    Nếu trong teams xuất hiện "allRaces" sẽ tìm kiếm thông tin tổng hợp theo năm 
+            Tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các races 
+            Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
+            Nếu trong teams xuất hiện "allRaces" sẽ tìm kiếm thông tin tổng hợp theo năm 
 
     **đường dẫn "http://localhost:3000/drivers/search"
-    .dùng để search cái thông tin các drivers
+    
+            Dùng để search cái thông tin các drivers
 
-    Cú pháp data : 
+            Cú pháp data : 
 
-            {
-            "teams":["Alfa Romeo Ferrari","Haas Ferrari","allDrivers"],
-            "year":[2010,2023, "allYears"],
-            "skip":option,
-            "limit":option
-            }
+                    {
+                    "teams":["Alfa Romeo Ferrari","Haas Ferrari","allDrivers"],
+                    "year":[2010,2023, "allYears"],
+                    "skip":option,
+                    "limit":option
+                    }
 
-    Tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các drivers
-    Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
-    Nếu trong teams xuất hiện "allDrivers" sẽ tìm kiếm thông tin tổng hợp theo năm 
+            Tìm kiếm thông tin theo năm từ 2023 đến 1998 và thông tin các drivers
+            Nếu trong year xuất hiện "allYears" sẽ tìm tất cả các năm
+            Nếu trong teams xuất hiện "allDrivers" sẽ tìm kiếm thông tin tổng hợp theo năm 
 
 **các thông tin crawling được
 
